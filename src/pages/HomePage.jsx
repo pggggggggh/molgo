@@ -2,6 +2,7 @@ import {Box, Card, CardContent, CardMedia, Grow, Typography} from "@mui/material
 import {Grid2 as Grid} from "@mui/material";
 import ScrollAnimation from "react-animate-on-scroll";
 import {useEffect} from "react";
+import CountUp from "react-countup";
 
 const HomePage = () => {
     return (
@@ -14,11 +15,18 @@ const HomePage = () => {
                 flexDirection="column"
                 mb={5}
             >
-                <Grow in={true}>
-                    <Typography align={"center"} variant="h1" fontWeight={"100"}>
-                        Molgorithm
-                    </Typography>
-                </Grow>
+                <ScrollAnimation animateIn="fadeIn">
+                    <Box
+                        display={"flex"}
+                        alignItems="center"
+                        flexDirection="column"
+                    >
+                        <Typography variant="h1" fontWeight={"100"} mb={2}>
+                            Molgorithm
+                        </Typography>
+                        <Typography><CountUp end={2548}/> problems solved</Typography>
+                    </Box>
+                </ScrollAnimation>
             </Box>
             <Box mb={5}>
                 <ScrollAnimation animateIn="fadeIn">
