@@ -24,7 +24,7 @@ const HomePage = () => {
                         <Typography variant="h1" fontWeight={"100"} mb={2}>
                             Molgorithm
                         </Typography>
-                        <Typography><CountUp end={2548}/> problems solved</Typography>
+                        <Typography><CountUp end={3267}/> problems solved</Typography>
                     </Box>
                 </ScrollAnimation>
             </Box>

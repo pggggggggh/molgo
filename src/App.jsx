@@ -5,10 +5,14 @@ import HomePage from "./pages/HomePage.jsx";
 import {Box, Container, createTheme, CssBaseline, ThemeProvider} from "@mui/material";
 import {useEffect} from "react";
 import FAQPage from "@/pages/FAQPage.jsx";
+import RatingPage from "@/pages/RatingPage.jsx";
 
 const theme = createTheme({
     typography: {
         fontFamily: 'Noto Sans KR',
+        button: {
+            textTransform: 'none'
+        }
     },
     palette: {
         mode: 'dark',
@@ -32,7 +36,8 @@ function App() {
                     <Container maxWidth={"lg"}>
                         <Routes>
                             <Route path="/" element={<HomePage/>}/>
-                            <Route path="/faqs" element={<FAQPage/>}/>
+                            <Route path="/faq" element={<FAQPage/>}/>
+                            <Route path="/rating" element={<RatingPage/>}/>
                         </Routes>
                     </Container>
                     <Footer/>

@@ -5,8 +5,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 const FAQPage = () => {
     return (
         <>
-            <Box mt={20}
-            >
+            <Box mt={20}>
                 <Typography variant={"h2"} fontWeight={"bold"} gutterBottom>FAQ</Typography>
                 <Accordion sx={{width:"100%"}}>
                     <AccordionSummary
@@ -29,7 +28,7 @@ const FAQPage = () => {
                         SCPC 상타면 뭐가 좋나요?
                     </AccordionSummary>
                     <AccordionDetails>
-                        좋습니다
+                        못타서 모릅니다
                     </AccordionDetails>
                 </Accordion>
             </Box>

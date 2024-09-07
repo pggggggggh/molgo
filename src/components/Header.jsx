@@ -11,7 +11,6 @@ const Header = () => {
                             <Typography
                                 variant={"h6"}
                                 fontWeight={"bold"}
-                                component="div"
                             >
                                 Molgorithm
                             </Typography>
@@ -31,7 +30,14 @@ const Header = () => {
                     </Button>
                 </Box>
                 <Box sx={{display: {xs: 'none', sm: 'block'}}}>
-                    <Link to={"/faqs"}>
+                    <Link to={"/rating"}>
+                    <Button sx={{color: '#fff'}}>
+                        <Typography>레이팅</Typography>
+                    </Button>
+                    </Link>
+                </Box>
+                <Box sx={{display: {xs: 'none', sm: 'block'}}}>
+                    <Link to={"/faq"}>
                         <Button sx={{color: '#fff'}}>
                             <Typography>FAQ</Typography>
                         </Button>
