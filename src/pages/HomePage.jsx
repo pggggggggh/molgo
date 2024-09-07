@@ -43,7 +43,7 @@ const HomePage = () => {
                     </Card>
                 </ScrollAnimation>
             </Box>
-            <Grid container spacing={2}>
+            <Grid container spacing={2} mb={5}>
                 <Grid size={4}>
                     <ScrollAnimation animateIn="fadeIn">
                         <Card variant={"outlined"}>
