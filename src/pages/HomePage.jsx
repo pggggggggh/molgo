@@ -125,7 +125,7 @@ const HomePage = () => {
                 </ScrollAnimation>
 
             </Box>
-            <Grid container spacing={2} mb={5}>
+            <Grid container spacing={2} mb={5} columns={{ xs: 4, md: 12 }}>
                 <Grid size={4}>
                     <ScrollAnimation animateIn="fadeIn">
                         <Card variant={"outlined"}>
