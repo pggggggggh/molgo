@@ -71,7 +71,7 @@ const HomePage = () => {
                         Molgorithm
                     </Typography>
                 </ScrollAnimation>
-                <Typography fontWeight={"100"}><CountUp end={3267}/> problems solved</Typography>
+                <Typography fontWeight={"100"}><CountUp end={145161}/> problems solved</Typography>
             </Box>
             <Box
                 onClick={scrollDown} style={{ cursor: 'pointer' }}
