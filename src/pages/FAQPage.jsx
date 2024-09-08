@@ -5,7 +5,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 const FAQPage = () => {
     return (
         <>
-            <Box mt={20}>
+            <Box mt={20} mb={5}>
                 <Typography variant={"h2"} fontWeight={"bold"} gutterBottom>FAQ</Typography>
                 <Accordion sx={{width:"100%"}}>
                     <AccordionSummary
