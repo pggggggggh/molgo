@@ -105,8 +105,7 @@ const HomePage = () => {
                                 Molgorithm? Algorithm!
                             </Typography>
                             <Typography variant={"h6"} fontWeight={"light"}>
-                                우리는 알고리즘 문제를 풉니다. 어쩌구 저쩌구.. <br/>
-                                레드가 둘이나 있습니다.
+                                우리는 문제를 해결합니다. 알고리즘은.. <br/>
                             </Typography>
                         </CardContent>
                     </Card>
@@ -136,7 +135,7 @@ const HomePage = () => {
                                     알고리즘 경시대회 출제 및 검수
                                 </Typography>
                                 <Typography>
-                                    어려우니까 풀지 마세요.
+                                    교내 경시대회를 출제하고 검수하였습니다.
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -147,10 +146,10 @@ const HomePage = () => {
                         <Card variant={"outlined"}>
                             <CardContent>
                                 <Typography variant={"h6"} fontWeight={"bold"} gutterBottom>
-                                    뭐 적지
+                                    TBD
                                 </Typography>
                                 <Typography>
-                                    뭐 적지
+                                    TBD
                                 </Typography>
                             </CardContent>
                         </Card>
@@ -161,10 +160,10 @@ const HomePage = () => {
                         <Card variant={"outlined"}>
                             <CardContent>
                                 <Typography variant={"h6"} fontWeight={"bold"} gutterBottom>
-                                    뭐 적지
+                                    TBD
                                 </Typography>
                                 <Typography>
-                                    뭐 적지
+                                    TBD
                                 </Typography>
                             </CardContent>
                         </Card>

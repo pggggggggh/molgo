@@ -13,10 +13,10 @@ const FAQPage = () => {
                         aria-controls="panel1-content"
                         id="panel1-header"
                     >
-                        저 못하는데 들어가도 되나요?
+                        실력이 부족한데 활동할 수 있나요?
                     </AccordionSummary>
                     <AccordionDetails>
-                        좀 오세요.
+                        모르고리즘은 일반부와 대회부로 나누어 활동합니다. 자신에게 맞는 부서로 지원하면 분명 도움이 될 것입니다.
                     </AccordionDetails>
                 </Accordion>
                 <Accordion sx={{width:"100%"}}>
@@ -25,10 +25,10 @@ const FAQPage = () => {
                         aria-controls="panel1-content"
                         id="panel1-header"
                     >
-                        SCPC 상타면 뭐가 좋나요?
+                        알고리즘을 잘하면 취업에 유리한가요?
                     </AccordionSummary>
                     <AccordionDetails>
-                        못타서 모릅니다
+                        TBD
                     </AccordionDetails>
                 </Accordion>
             </Box>
