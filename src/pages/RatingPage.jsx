@@ -9,6 +9,7 @@ const RatingPage = () => {
             alignItems={"center"}
             flexDirection={"column"}
             mt={20}
+            maxWidth={"100%"}
         >
             <Typography variant={"h5"} fontWeight={"bold"}>Codeforces</Typography>
             <RatingChartComponent/>
