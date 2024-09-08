@@ -28,8 +28,11 @@ const options = {
         curve: 'straight',
         width: 2
     },
+    fill: {
+        opacity: 1
+    },
     markers: {
-        size: 2
+        size: 2,
     },
     theme: {
         mode:'dark'
@@ -39,22 +42,22 @@ const options = {
             {
                 y: 0,
                 y2: 1200,
-                fillColor: '#edede9'
+                fillColor: '#edede9',
             },
             {
                 y: 1200,
                 y2: 1400,
-                fillColor: '#a7c957'
+                fillColor: '#a7c957',
             },
             {
                 y: 1400,
                 y2: 1600,
-                fillColor: '#ade8f4'
+                fillColor: '#ade8f4',
             },
             {
                 y: 1600,
                 y2: 1900,
-                fillColor: '#023e8a'
+                fillColor: '#023e8a',
             },
             {
                 y: 1900,

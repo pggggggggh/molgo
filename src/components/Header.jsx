@@ -25,6 +25,7 @@ const Header = (props) => {
 
     useEffect(() => {
         if (location.pathname === '/') setShowAppBar(false);
+        else setShowAppBar(true);
 
         const handleScroll = () => {
             if (window.scrollY > window.innerHeight - 100) {
