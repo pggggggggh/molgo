@@ -52,7 +52,7 @@ const Awards = () => {
                            <Typography variant="h6" component="span">
                                {item.label}
                            </Typography>
-                           <Typography dangerouslySetInnerHTML={{ __html: item.description }}>
+                           <Typography dangerouslySetInnerHTML={{ __html: item.description }} lineHeight={2}>
                            </Typography>
                        </TimelineContent>
                    </TimelineItem>
