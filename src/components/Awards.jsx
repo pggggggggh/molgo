@@ -11,18 +11,16 @@ const data = [
     {
         label: '2024',
         description: `
-        <b>김형진</b> - SCPC 4등상<br>
-        <b>김태윤</b> - LGCPC 장려상<br>
-        <b>SCC (김건우,김태윤,정용진)</b> - ICPC Asia Pacific Championship 21th<br>
-        <b>PS:Endgame (김태윤,김형진,정용진)</b> - ICPC World Finals 진출
+        삼성 대학생 프로그래밍 경진대회 : <b>김형진</b> - 4등상<br>
+        LG 대학생 프로그래밍 경진대회 : <b>김태윤</b> - 장려상<br>
+        SUAPC 2024 Summer : <b>PS:Endgame (김태윤,김형진,정용진)</b> - 1st<br>
+        ICPC Asia Pacific : <b>SCC (김건우,김태윤,정용진)</b> - 21th
         `,
     },
     {
         label: '2023',
         description: `
-        <b>김태윤,김형진</b> - SCPC 4등상<br>
-        <b>김건우</b> - SCPC 5등상<br>
-        
+        삼성 대학생 프로그래밍 경진대회 : <b>김태윤,김형진</b> - 4등상, <b>김건우</b> - 5등상      
         `
     },
     {
