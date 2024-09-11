@@ -6,6 +6,7 @@ import {Box, Container, createTheme, CssBaseline, ThemeProvider} from "@mui/mate
 import {useEffect} from "react";
 import FAQPage from "@/pages/FAQPage.jsx";
 import RatingPage from "@/pages/RatingPage.jsx";
+import CurriculumPage from "@/pages/CurriculumPage.jsx";
 
 const theme = createTheme({
     typography: {
@@ -38,6 +39,7 @@ function App() {
                             <Route path="/" element={<HomePage/>}/>
                             <Route path="/faq" element={<FAQPage/>}/>
                             <Route path="/rating" element={<RatingPage/>}/>
+                            <Route path="/curriculum" element={<CurriculumPage/>}/>
                         </Routes>
                     </Container>
                     <Footer/>

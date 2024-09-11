@@ -71,9 +71,13 @@ const Header = (props) => {
                         <ListItemButton component={Link} to="/rating" sx={{ textAlign: 'center', color: 'inherit', textDecoration: 'none', width: '100%' }}>
                             <ListItemText primary={"레이팅"} />
                         </ListItemButton>
+                        <ListItemButton component={Link} to={"https://molgorithm.notion.site/711464e2b56f483582e12edbcc060f3c"} sx={{ textAlign: 'center', color: 'inherit', textDecoration: 'none', width: '100%' }}>
+                            <ListItemText primary={"커리큘럼"} />
+                        </ListItemButton>
                         <ListItemButton component={Link} to="/faq" sx={{ textAlign: 'center', color: 'inherit', textDecoration: 'none', width: '100%' }}>
                             <ListItemText primary={"FAQ"} />
                         </ListItemButton>
+
                     </List>
                 </ListItem>
             </List>
@@ -126,6 +130,13 @@ const Header = (props) => {
                         <Link to={"/rating"}>
                             <Button sx={{color: '#fff'}}>
                                 <Typography>레이팅</Typography>
+                            </Button>
+                        </Link>
+                    </Box>
+                    <Box sx={{display: {xs: 'none', sm: 'block'}}}>
+                        <Link to={"https://molgorithm.notion.site/711464e2b56f483582e12edbcc060f3c"}>
+                            <Button sx={{color: '#fff'}}>
+                                <Typography>커리큘럼</Typography>
                             </Button>
                         </Link>
                     </Box>
